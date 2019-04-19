@@ -2,7 +2,6 @@ import textblob as textblob
 import json
 import requests
 import os
-import matplotlib.pyplot as plot
 from tweepy import Stream
 from tweepy import OAuthHandler
 from tweepy.streaming import StreamListener
@@ -53,5 +52,5 @@ twitterStream = Stream(auth, StdOutlistener())
 # twitterStream.filter(languages=["en"], track=["Test"])
 
 # track user if posts new tweet with account id 
-twitterStream.filter(follow=['783214'])
+twitterStream.filter(follow=['546889305'])
 
