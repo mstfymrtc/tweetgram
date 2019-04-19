@@ -1,0 +1,4 @@
+textblob
+matplotlib.pyplot
+tweepy
+textblob
