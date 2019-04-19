@@ -52,5 +52,5 @@ twitterStream = Stream(auth, StdOutlistener())
 # twitterStream.filter(languages=["en"], track=["Test"])
 
 # track user if posts new tweet with account id 
-twitterStream.filter(follow=['546889305'])
+twitterStream.filter(follow=['2955315479'])
 
